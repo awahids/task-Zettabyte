@@ -12,7 +12,7 @@ function result(numbers) {
   let newArr = new Array();
   const count = 9;
 
-  for (let j = 1; j <= count; j++) {
+  for (let j = 0; j <= count; j++) {
     if (numbers.indexOf(j) == -1) {
       newArr.push(j);
     }
