@@ -29,7 +29,7 @@ function result(data) {
     var newObject = {};
     Object.keys(data).forEach((key) => {
       var newData = result(data[key]);
-      if (newData != null && typeof newData != "undefined")
+      if (newData != null && typeof newData != "undefined" && newData != "first test")
         newObject[key] = newData;
     });
     data = newObject;
